@@ -1,0 +1,30 @@
+<resources>
+    <string name="Activity">Activity List</string>
+    <string name="button_addList">Add List</string>
+    <string name="hint_listTitle">List Title</string>
+    <string name="menu_cancelList">Cancel</string>
+    <string name="description">Description</string>
+    <string name="description1">Description1</string>
+    <string name="menu_addlist">Add</string>
+    <string name="enter_listmark_title"> Please enter a list Title </string>
+    <string name="save_listmark"> Save List </string>
+    <string name="button_addImage"> Add Image </string>
+    <string name="select_list_image">Select list image</string>
+    <string name="change_list_image">Change list image</string>
+    <string name="list_image">List image</string>
+    <string name="button_location">Set Location</string>
+
+    <string name="menu_deleteList">Delete</string>
+
+    <string name="text">TextView</string>
+    <string name="time">Time</string>
+    <string name="distance">Distance</string>
+    <string name="add_time">Add Time</string>
+    <string name="add_distance">Add Distance</string>
+    <string name="todo">TODO</string>
+    <string name="date1">TextView</string>
+    <string name="add_image">Add Image</string>
+    <string name="dates">Date</string>
+    <string name="names">names</string>
+
+</resources>
