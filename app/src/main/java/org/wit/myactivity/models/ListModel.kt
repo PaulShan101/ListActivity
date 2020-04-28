@@ -12,6 +12,7 @@ data class ListModel(var id: Long = 0,
                      var description: String = "",
                      var date: String = "",
                      var names1: String = "",
+                     var pb1: String = "",
                      var image: String = "") : Parcelable
 
 

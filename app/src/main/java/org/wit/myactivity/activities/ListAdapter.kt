@@ -42,6 +42,7 @@ class ListAdapter constructor(private var lists: List<ListModel>,
             itemView.description.text = list.description
             itemView.date1.text = list.date
             itemView.name1.text = list.names1
+            itemView.pb1.text = list.pb1
             itemView.imageIcon.setImageBitmap(readImageFromPath(itemView.context, list.image))
             itemView.setOnClickListener { listener.onListClick(list) }
         }

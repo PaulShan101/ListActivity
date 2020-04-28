@@ -50,9 +50,12 @@ class List : AppCompatActivity(), AnkoLogger {
             description.setText(list.description)
             date1.setText(list.date)
             name1.setText(list.names1)
+            pb1.setText(list.pb1)
+
             placemarkImage.setImageBitmap(readImageFromPath(this, list.image))
             chooseImage.setText(R.string.change_list_image)
             btnAdd.setText(R.string.save_listmark)
+
         }
 
 //these are the buttons that contol or take you too next page they are linked to activity_list
@@ -61,6 +64,7 @@ class List : AppCompatActivity(), AnkoLogger {
             list.description = description.text.toString()
             list.date = date1.text.toString()
             list.names1 = name1.text.toString()
+            list.pb1 = pb1.text.toString()
             //here
             if (list.title.isEmpty()) {
                 toast("Enter List Title")
@@ -79,6 +83,7 @@ class List : AppCompatActivity(), AnkoLogger {
         chooseImage.setOnClickListener {
             showImagePicker(this, IMAGE_REQUEST)
         }
+
 
 
 

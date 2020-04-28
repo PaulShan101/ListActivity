@@ -34,6 +34,7 @@ class ListMemStore : ListStore, AnkoLogger {
             foundList.description = list.description
             foundList.date = list.date
             foundList.names1 = list.names1
+            foundList.pb1 = list.pb1
             foundList.image = list.image
 
             logAll()
