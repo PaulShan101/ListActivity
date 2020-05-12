@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- colour for the app bar and other primary UI elements -->
-    <color name="colorPrimary">#4c90af</color>
+    <color name="colorPrimary">#008000</color>
     <!-- a darker variant of the primary colour, used this for
          things like status bars and other app bars.  -->
     <color name="colorPrimaryDark">#000000</color>

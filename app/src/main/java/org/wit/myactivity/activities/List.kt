@@ -32,7 +32,6 @@ class List : AppCompatActivity(), AnkoLogger {
     var list = ListModel()
     lateinit var app : MainApp
     val IMAGE_REQUEST = 1
-    //val LOCATION_REQUEST = 2
     var edit = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -58,7 +57,7 @@ class List : AppCompatActivity(), AnkoLogger {
 
         }
 
-//these are the buttons that contol or take you too next page they are linked to activity_list
+//these are the buttons that control or take you too next page they are linked to activity_list
         btnAdd.setOnClickListener() {
             list.title = listTitle.text.toString()
             list.description = description.text.toString()

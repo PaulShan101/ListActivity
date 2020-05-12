@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/my_diary"
+    android:background="@drawable/track"
     tools:context="org.wit.lists.activities.ListActivity">
 
 
@@ -26,6 +26,7 @@
       android:id="@+id/recyclerView"
       android:layout_width="match_parent"
       android:layout_height="match_parent"
+      android:background="#0069C01C"
       android:scrollbars="vertical"
       app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
